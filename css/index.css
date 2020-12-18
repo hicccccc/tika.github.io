@@ -133,10 +133,7 @@ a:hover{
         opacity: 1;
     }
 }
-@font-face{
-    font-family: 'logo';
-    src:url('../font/logo.otf');
-}
+
 @font-face{
     font-family: 'index';
     src:url('../font/index.TTF');
