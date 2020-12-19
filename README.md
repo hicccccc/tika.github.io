@@ -1,5 +1,4 @@
-# an.github.io//0.1
-Adversarial Networks 对抗网络 Web 官网
+# tika.github.io
+Adversarial Networks 对抗网络 Web 官网//0.1
 
-#tika.github.io//0.2
-对抗网络 Tikawolo 网站
+对抗网络 Tikawolo 网站//0.2
