@@ -1,40 +1,42 @@
 <!DOCTYPE html>
 <html lang="zh">
+
 <head>
     <meta charset="UTF-8">
 </head>
+
 <body>
-    <div>
-        <span id="english">Tikawolo</span>
-        <span id="chinese">对抗网络</span>
-    </div>
+    <canvas></canvas>
+    <div class="instructions">Tikawolo</div>
+    <script src="../js/blue.js"></script>
 </body>
 <style>
-    #english{
-    position: absolute;
-    left: 50%;
-    top: 40%;
-    transform: translate(-50%,-50%);
-    color: #fff;
-    font-size: 10vmax;
-    font-family: 'index';
-    z-index: 1;
-    cursor: pointer;
-}
-    #chinese{
-    position: absolute;
-    left: 60%;
-    top: 70%;
-    transform: translate(-50%,-50%);
-    color: #fff;
-    font-size: 10vmax;
-    font-family: 'index';
-    z-index: 1;
-    cursor: pointer;
-}
-    @font-face{
-    font-family: 'index';
-    src:url('../font/index.TTF');
-} 
+    html,
+    body {
+        overflow: hidden;
+        margin: 0;
+    }
+
+    .instructions {
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'default';
+        color: #fff;
+        letter-spacing: 2px;
+        pointer-events: none;
+    }
+
+    canvas {
+        width: 100%;
+    }
+
+    @font-face {
+        font-family: 'default';
+        src: url('../src/font/default.TTF');
+    }
 </style>
+
 </html>
