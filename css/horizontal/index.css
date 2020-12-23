@@ -40,7 +40,7 @@ span:hover {
 }
 
 #logo {
-    grid-area: 5/41/13/61;
+    grid-area: 10/83/20/100;
     transform: rotate(90deg);
     background-image: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
     background-size: 400%;

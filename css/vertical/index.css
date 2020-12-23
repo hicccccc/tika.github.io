@@ -40,7 +40,7 @@ span:hover {
 }
 
 #logo {
-    grid-area: 2/41/8/61;
+    grid-area: 98/35/99/40;
     transform: rotate(90deg);
     background-image: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
     background-size: 400%;
@@ -52,7 +52,7 @@ span:hover {
 
 .logo {
     font-family: 'noah';
-    font-size: 9vmax;
+    font-size: 2vmax;
 }
 
 #button1 {
@@ -76,7 +76,7 @@ span:hover {
 }
 
 #statement {
-    grid-area: 98/37/99/65;
+    grid-area: 98/40/99/70;
     z-index: 1;
 }
 
