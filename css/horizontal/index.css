@@ -73,6 +73,10 @@ span:hover {
 #button4 {
     grid-area: 80/83/100/100;
 }
+#statement{
+    grid-area: 99/70/100/100;
+    justify-self: end;
+}
 
 #window {
     grid-area: 14/2/94/81;
