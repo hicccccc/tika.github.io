@@ -1,7 +1,3 @@
-html {
-    font-size: 14px;
-}
-
 body {
     padding: 0;
     margin: 0;
@@ -27,7 +23,7 @@ span {
     width: 100%;
     height: 100%;
     color: white;
-    font-size: 13vw;
+    font-size: 5vmax;
     font-family: "default";
 }
 
@@ -51,47 +47,61 @@ span:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: flow 60s infinite;
+    z-index: 1;
 }
 
 .logo {
     font-family: 'noah';
-    font-size: 12rem;
+    font-size: 9vmax;
 }
 
 #button1 {
     grid-area: 75/2/85/50;
+    z-index: 1;
 }
 
 #button2 {
     grid-area: 75/52/85/100;
+    z-index: 1;
 }
 
 #button3 {
     grid-area: 90/2/100/50;
+    z-index: 1;
 }
 
 #button4 {
     grid-area: 90/52/100/100;
+    z-index: 1;
 }
 
 #statement {
     grid-area: 98/37/99/65;
+    z-index: 1;
 }
 
 .statement {
-    font-size: 2rem;
+    font-size: 2.5vmin;
 }
 
 #window {
     grid-area: 21/2/61/100;
     width: 100%;
     height: 100%;
+    z-index: 1;
+}
+
+#cg {
+    grid-area: 1/1/101/101;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
 }
 
 #background {
     grid-area: 1/1/101/101;
     width: 100%;
-    height: auto;
+    height: 100%;
     z-index: -1;
 }
 
