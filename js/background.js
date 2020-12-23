@@ -10,7 +10,7 @@ if(!gl){
 }
 
 //Time step
-var dt = 0.01;
+var dt = 0.001;
 //Time
 var time = 0.0;
 
