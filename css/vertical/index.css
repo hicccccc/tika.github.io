@@ -66,12 +66,12 @@ span:hover {
 }
 
 #button3 {
-    grid-area: 90/2/100/50;
+    grid-area: 90/2/95/50;
     z-index: 1;
 }
 
 #button4 {
-    grid-area: 90/52/100/100;
+    grid-area: 90/52/95/100;
     z-index: 1;
 }
 
