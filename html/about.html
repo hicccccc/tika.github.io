@@ -1,66 +1,54 @@
 <!DOCTYPE html>
 <html lang="zh">
+
 <head>
     <meta charset="UTF-8">
 </head>
+
 <body>
-    <div id="first">
-        <a><p>创始愿景</p></a>
+    <div>
+        <a>创始愿景</a>
     </div>
-    <div id="second">
-        <a><p>创始团队</p></a>
+    <div>
+        <a>创始团队</a>
     </div>
-    <div id="third">
-        <a><p>公司现状</p></a>
+    <div>
+        <a>公司现状</a>
     </div>
-    <div id="more">
-        <a><p>更多</p></a>
+    <div>
+        <a>更多</a>
     </div>
 </body>
 <style>
-    body{
+    body {
+        padding: auto;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-flow: row;
+        place-items: center;
+        position: absolute;
         background-color: transparent;
-        text-align: left;
-        font-size: 10vmax;
+        font-size: 8vmax;
         color: white;
-        font-family: 'index';
-        position: absolute; 
-        left: 0;
-        overflow-x: hidden;
-        overflow-y: scroll;
-}
+        font-family: 'default';
+    }
+
     body::-webkit-scrollbar {
-    display: none;
-}
-    #first{
-        width: 50%;
-        height: 50%;
-        float: left;
-        text-align: center;
+        display: none;
     }
-    #second{
-        width: 50%;
-        height: 50%;
-        float: left;
-        text-align: center;
+
+    a {
+        text-decoration: none;
+        color: white;
     }
-    #third{
-        width: 50%;
-        height: 50%;
-        float: left;
-        text-align: center;
+
+    @font-face {
+        font-family: 'default';
+        src: url('../src/font/default.TTF');
     }
-    #more{
-        width: 50%;
-        height: 50%;
-        float: left;
-        text-align: center;
-    }
-    p{
-        cursor: pointer;
-    }
-    @font-face{
-    font-family: 'index';
-    src:url('../font/index.TTF');}
 </style>
+
 </html>
