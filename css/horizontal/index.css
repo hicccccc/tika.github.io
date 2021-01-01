@@ -108,7 +108,7 @@ span:hover {
 
 @font-face {
     font-family: "default";
-    src: url(../../src/font/default.ttf);
+    src: url(../../src/font/default.TTF);
 }
 
 @font-face {
