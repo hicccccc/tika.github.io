@@ -4,7 +4,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: black;
+    background: transparent;
   }
   .flip-clock {
     text-align: center;
